@@ -7,6 +7,6 @@
 > - BeautifulSoup 4
 
 ## How to use ?
- ```
+
 - Create a data.csv file in the same folder as this file @octocat :+1:
-- Run **python scr.py** to start scraping the house price and area```:shipit:
+- Run **python scr.py** to start scraping the house price and area :shipit:
