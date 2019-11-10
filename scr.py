@@ -31,10 +31,9 @@ for i in range(1,len(a)):
     price = (price.text).split()
     area = (area.text).split()
     if area[1] == 'sqm' or area[1] == 'sqyrd':
-        area[0] = (int(area[0]))*Unit_map[f'{area[1]}']
-    if price[1] == 'Cr' or 'Lac' :
-        print(price[0])
-        #price[0] = (float(price[0]))*Unit_map[f'{price[1]}']
-        price[0] = int(price[0])
-   # f.write(str(price[0]) + ", " + str(area[0]) + "\n")
+        area[0] = area[0].replace(',','')
+        area[0] = (float(area[0]))*Unit_map[f'{area[1]}']
+    if price[1] == 'Cr' or price[1]=='Lac':
+        price[0] = int((float(price[0]))*Unit_map[f'{price[1]}'])
+    f.write(str(price[0]) + ", " + str(area[0]) + "\n")
 f.close()
