@@ -8,5 +8,5 @@
 
 ## How to use ?
 
-- Create a data.csv file in the same folder as the file name data.csv @octocat :+1:
-- Run **python scr.py** to start scraping the house price and area :shipit:
+- Create a data.csv file in the same folder as the file name data.csv  :+1:
+- Run **python main.py** to start scraping the house price and area :shipit:
