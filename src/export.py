@@ -1,14 +1,10 @@
-#creating CSV
+import pandas as pd
+from . import constants
 
-def exportCsv(data: list):
 
-     #external File
-    outfile_name = 'data.csv'
-    #CSV headers
-    headers = 'Price, Area'
-    f = open(outfile_name,'w')
-    f.write(headers)
-    
-    for area, price in data:
-        f.write("\n" + str(price) + ", " + str(area) )
-    f.close()
+def export_csv(data, filename="data.csv"):
+    data = pd.DataFrame(data, columns=constants.COLUMNS)
+    data.to_csv(
+        f"{constants.PATH}\{filename}",
+        index=False,
+    )

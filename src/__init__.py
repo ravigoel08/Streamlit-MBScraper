@@ -1,1 +1,1 @@
-__all__ = ['scrape', 'export', 'cleaner']
+__all__ = ["scrape", "export", "cleaner", "page"]

@@ -1,16 +1,20 @@
 from bs4 import BeautifulSoup
-from urllib.request import Request, urlopen
+import requests
+from . import constants
+from typing import List
 
-def mbscraper(pages: int):
+
+def mb_scraper(pages: int, cityname: str, bhk=1) -> List[str]:
     data = []
-    #fetching Container containing the data required by looping through each page
-    
     for i in range(1, pages):
-        print('page ' +f'{i}'+' scraped')
-        my_url = f"https://www.magicbricks.com/property-for-sale/residential-real-estate?proptype=Residential-House,Villa&cityName=New-Delhi&page={i}"
-        req = Request(my_url, headers={'User-Agent':'Mozilla/5.0'})
-        uClient = urlopen(req).read()
-        ucl = uClient.decode('utf-8')
-        soup = BeautifulSoup(ucl,"html.parser")
-        data = data + soup.findAll("div",class_="SRCard")
+        print("page " + f"{i}" + " scraped")
+        payload = {
+            "proptype": f"{constants.PROPERTY}",
+            "bedrooms": f"{bhk}",
+            "cityName": f"{cityname}",
+            "page": f"{i}",
+        }
+        req = requests.get(constants.URL, params=payload).content.decode("utf-8")
+        soup = BeautifulSoup(req, "html.parser")
+        data = data + soup.findAll("div", class_="SRCard")
     return data
