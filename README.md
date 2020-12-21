@@ -60,6 +60,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![Product Name Screen Shot](assets/project_screenshot.png)
+
  A Streamlit application to scrape data from MagicBricks.
 
 
@@ -89,7 +91,7 @@ Install Docker
    ```
 2. Docker compose
    ```sh
-   docker-compose up
+   docker-compose up --build
    ```
 3. And you are done.
 
@@ -98,9 +100,9 @@ Install Docker
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Select Cityname, property type, bhk to check data availability. If data is available, start scraping!
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![demo gif](assets/demo1.gif)
 
 
 
