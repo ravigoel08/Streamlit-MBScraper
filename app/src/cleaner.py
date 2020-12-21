@@ -2,9 +2,9 @@ from . import constants
 from typing import List
 
 
-def data_cleaner(data: List[str]):
+def data_cleaner(data: List[str], result: int):
     pack = []
-    for i in range(1, len(data)):
+    for i in range(0, result):
         container = data[i].find("div", class_=constants.CONTAINER)
         price = container.find("div", class_=constants.PRICE).span
         area = container.find("div", class_=constants.AREA)
