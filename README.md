@@ -133,9 +133,9 @@ Project Link: [https://github.com/ravigoel08/MBScraper](https://github.com/ravig
 
 [contributors-url]: https://github.com/ravigoel08/MBScraper/graphs/contributors
 [forks-url]: https://github.com/ravigoel08/MBScraper/network/members
+[license-url]: https://github.com/ravigoel08/MBScraper/blob/master/LICENSE.md
 [stars-url]: https://github.com/ravigoel08/MBScraper/stargazers
 [issues-url]: https://github.com/ravigoel08/MBScraper/issues
-[license-url]: https://github.com/ravigoel08/MBScraper/blob/master/LICENSE.md
 [linkedin-url]: https://www.linkedin.com/in/ravi-goyal52/
 [contributors-shield]: https://img.shields.io/github/contributors/ravigoel08/MBScraper?style=for-the-badge
 [issues-shield]: https://img.shields.io/github/issues/ravigoel08/MBScraper?style=for-the-badge
