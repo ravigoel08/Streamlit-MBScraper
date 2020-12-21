@@ -130,13 +130,13 @@ Project Link: [https://github.com/ravigoel08/MBScraper](https://github.com/ravig
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 
-[contributors-url]: https://github.com/ravigoel08/MBScraper/graphs/contributors
-[forks-url]: https://github.com/ravigoel08/MBScraper/network/members
-[stars-url]: https://github.com/ravigoel08/MBScraper/stargazers
-[issues-url]: https://github.com/ravigoel08/MBScraper/issues
+[contributors-url]: https://github.com/ravigoel08/Streamlit-MBScraper/graphs/contributors
+[forks-url]: https://github.com/ravigoel08/Streamlit-MBScraper/network/members
+[stars-url]: https://github.com/ravigoel08/Streamlit-MBScraper/stargazers
+[issues-url]: https://github.com/ravigoel08/Streamlit-MBScraper/issues
 [linkedin-url]: https://www.linkedin.com/in/ravi-goyal52/
-[contributors-shield]: https://img.shields.io/github/contributors/ravigoel08/MBScraper?style=for-the-badge
-[issues-shield]: https://img.shields.io/github/issues/ravigoel08/MBScraper?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/ravigoel08/MBScraper?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/ravigoel08/MBScraper?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ravigoel08/Streamlit-MBScraper?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ravigoel08/Streamlit-MBScraper?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ravigoel08/Streamlit-MBScraper?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ravigoel08/Streamlit-MBScraper?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
