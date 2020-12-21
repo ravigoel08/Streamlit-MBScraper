@@ -102,7 +102,7 @@ Install Docker
 
 ![demo gif](assets/demo1.gif)
 
-Select Cityname, Property type, Bhk to check data availability. If data is available, start scraping!
+Select Cityname, Property type, Bhk to check data availability. If data is available, start scraping! :+1:
 
 
 
