@@ -58,14 +58,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project :snowflake:
+## About The Project 
 
 ![Product Name Screen Shot](assets/project_screenshot.png)
 
  A Practical implementation of Scraping application using streamlit to scrape Property Details from MagicBricks. 
 
 
-### Built With :hammer:
+### Built With 
 
 * [Streamlit](https://www.streamlit.io/)
 * [Python3](https://www.python.org/) :snake:
@@ -76,14 +76,14 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Started :space_invader:
+## Getting Started 
 
 
-### Prerequisites :pencil:
+### Prerequisites 
 
 Install Docker
 
-### Installation :wrench:
+### Installation 
 
 1. Clone the repo :eyes:
    ```sh
@@ -98,7 +98,7 @@ Install Docker
 
 
 <!-- USAGE EXAMPLES -->
-## Usage :grey_question:
+## Usage 
 
 ![demo gif](assets/demo1.gif)
 
@@ -107,7 +107,7 @@ Select Cityname, Property type, Bhk to check data availability. If data is avail
 
 
 <!-- LICENSE -->
-## License :white_check_mark:
+## License 
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
