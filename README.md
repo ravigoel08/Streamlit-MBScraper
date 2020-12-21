@@ -119,7 +119,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Mail](ravigoel.1997@gmail.com) - ravigoel.1997@gmail.com
+CodewithRv - ravigoel.1997@gmail.com
 
 Project Link: [https://github.com/ravigoel08/MBScraper](https://github.com/ravigoel08/MBScraper)
 
