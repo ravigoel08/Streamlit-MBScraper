@@ -93,7 +93,11 @@ Install Docker
    ```sh
    docker-compose up --build
    ```
-3. And you are done :boom:
+3. Open your Browser tab
+   ```sh
+   http://localhost:8000/
+   ```
+4. And you are done :boom:
 
 
 
