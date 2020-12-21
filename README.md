@@ -25,7 +25,7 @@
     <a href="https://github.com/ravigoel08/MBScraper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ravigoel08/MBScraper">View Demo</a>
+    <a href="https://github.com/ravigoel08/MBScraper/blob/master/assets/demo1.gif">View Demo</a>
     ·
     <a href="https://github.com/ravigoel08/MBScraper/issues">Report Bug</a>
   </p>
@@ -58,16 +58,17 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project :snowflake:
 
 ![Product Name Screen Shot](assets/project_screenshot.png)
 
- A Streamlit application to scrape data from MagicBricks.
+ A Practical implementation of Scraping application using streamlit to scrape Property Details from MagicBricks. 
 
 
-### Built With
+### Built With :hammer:
 
 * [Streamlit](https://www.streamlit.io/)
+* [Python3](https://www.python.org/) :snake:
 * [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
 * [Requests](https://requests.readthedocs.io/en/master/)
 * [Pandas](https://pandas.pydata.org/)
@@ -75,39 +76,38 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started :space_invader:
 
-Follow steps below to get started - 
 
-### Prerequisites
+### Prerequisites :pencil:
 
 Install Docker
 
-### Installation
+### Installation :wrench:
 
-1. Clone the repo
+1. Clone the repo :eyes:
    ```sh
    git clone https://github.com/ravigoel08/MBScraper.git
    ```
-2. Docker compose
+2. Docker compose :sunglasses:
    ```sh
    docker-compose up --build
    ```
-3. And you are done.
+3. And you are done :boom:
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Select Cityname, property type, bhk to check data availability. If data is available, start scraping!
+## Usage :grey_question:
 
 ![demo gif](assets/demo1.gif)
+
+Select Cityname, Property type, Bhk to check data availability. If data is available, start scraping!
 
 
 
 <!-- LICENSE -->
-## License
+## License :white_check_mark:
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
