@@ -86,7 +86,7 @@ Install Docker
 
 1. Clone the repo :eyes:
    ```sh
-   git clone https://github.com/ravigoel08/MBScraper.git
+   git clone https://github.com/ravigoel08/Streamlit-MBScraper.git
    ```
 2. Docker compose :sunglasses:
    ```sh
